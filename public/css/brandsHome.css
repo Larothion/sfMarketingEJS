@@ -1,0 +1,911 @@
+        #homeBigScreen {
+            height: 90vh;
+        }
+
+        .homeContent {
+            position: relative;
+            top: 30%;
+            left: 15%;
+            z-index: 3;
+        }
+
+
+        #homeTitle {
+            font-size: 55px;
+            color: #fff;
+            line-height: 50px;
+            letter-spacing: 2px;
+            font-weight: normal;
+            width: 750px;
+            font-family: 'Passion One', cursive;
+        }
+
+        #titleParagraph {
+            font-size: 16px;
+            color: #fff;
+            margin-top: 35px;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 30px;
+            line-height: 28px;
+            letter-spacing: 1px;
+        }
+
+        #brandHomeButton {
+            background-color: #30b7fe;
+            color: #fff;
+            height: 60px;
+            width: 340px;
+            font-size: 16px;
+            border-radius: 30px;
+            border: none;
+            padding: 20px;
+            font-weight: 500;
+            position: absolute;
+            top: 120%;
+            left: 10%;
+        }
+
+        #streamerImage1 {
+            position: absolute;
+            height: 00px;
+            width: 800px;
+            height: auto;
+            max-width: 100%;
+            left: 35%;
+            border: 2px solid #30b7fe;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        #twitchSectionImage {
+            position: absolute;
+            height: 450px;
+            width: 750px;
+            height: auto;
+            max-width: 100%;
+            left: 15%;
+            border: 2px solid #a023ff;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+            z-index: 99999;
+            border-radius: 30px;
+        }
+
+        #brand123Container {
+            height: 950px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        #brand123Row {
+            margin: 0px;
+            margin-top: 180px;
+            padding: 0px;
+        }
+
+        .backgroundBrand123 {
+            background-color: #e5efff;
+            border-radius: 15px;
+            height: 250px;
+            margin: 0px;
+            padding: 20px 0 20px 0;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .brand123 {
+            padding: 15px;
+        }
+
+        #brand123Title {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        #brand123PTitle {
+            font-size: 18px;
+            color: #a3a3a3;
+        }
+
+        .brand123 p {
+            line-height: 30px;
+            font-size: 18px;
+            color: #a3a3a3;
+        }
+
+        .brand123 h3 {
+            margin: 0 0 10px 0px;
+            font-size: 24px;
+            color: #0c6dff;
+            font-weight: bolder;
+            letter-spacing: 2px;
+        }
+
+        .brand123Trophy {
+            padding: 30px 0 30px 0;
+        }
+
+        #sfBrandSlant {
+            position: absolute;
+            height: 180vh;
+            width: 330vh;
+            top: 40%;
+            left: -30%;
+            z-index: 0;
+        }
+
+        #howItWorkTitle {
+            color: white;
+            font-size: 55px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            line-height: 75px;
+        }
+
+        .howitWorkSteps {
+            position: relative;
+            height: 200px;
+        }
+
+        .howItWorksIcons i {
+            font-size: 70px;
+            margin-left: 234.5px;
+            color: #fff;
+        }
+
+        #HowItWorksStep1Section {
+            top: 0%;
+            left: -12%;
+        }
+
+        #howItWorksStep1P {
+            position: relative;
+            height: 100px;
+            padding-top: 25px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        #howItWorksStep1P p {
+            color: #fff;
+        }
+
+        #HowItWorksStep2Section {
+            top: 0%;
+        }
+
+
+
+        #howItWorksStep2P {
+            position: relative;
+            top: 0%;
+            height: 100px;
+            padding-top: 25px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        #howItWorksStep2P p {
+            color: #fff;
+        }
+
+        #HowItWorksStep3Section {
+            top: 4%;
+            left: 12%;
+        }
+
+
+        #howItWorksStep3P {
+            position: relative;
+            top: -10%;
+            height: 100px;
+            padding-top: 25px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        #howItWorksStep3P p {
+            color: #fff;
+        }
+
+        #HowItWorksStep4Section {
+
+            left: 22%;
+        }
+
+
+
+        #howItWorksStep4P {
+            position: relative;
+            height: 100px;
+            padding-top: 25px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        #howItWorksStep4P p {
+            color: #fff;
+        }
+
+        #howItWorksBtn {
+            background-color: #fff;
+            color: #7fb1fe;
+            height: 50px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: none;
+            padding: 15px;
+            font-weight: 750;
+            margin-left: 160px;
+            margin-top: 20px;
+        }
+
+        #HowItWorksSection {
+            height: 900px;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#08f8f8+0,ae61ff+67 */
+            background: #08f8f8;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #08f8f8 0%, #ae61ff 75%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #08f8f8 0%, #ae61ff 75%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #08f8f8 0%, #ae61ff 75%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08f8f8', endColorstr='#ae61ff', GradientType=1);
+            /* IE6-9 */
+        }
+
+        #noTitleCastersSection {
+            background-color: #fff;
+        }
+
+
+
+        @media only screen and (max-width: 1773px) {
+
+
+            #howItWorkTitle {}
+        }
+
+        @media only screen and (max-width: 1669px) {
+
+            #streamerImage1 {
+                width: 700px;
+                left: 38%;
+            }
+
+            #howItWorksStep1 {
+                top: 20%;
+            }
+        }
+
+        @media only screen and (max-width: 1600px) {
+
+            #streamerImage1 {
+                width: 600px;
+                left: 38%;
+            }
+        }
+
+        @media only screen and (max-width: 1574px) {
+
+            .brand123 p {
+                font-size: 16px;
+            }
+
+            #brand123Row {
+                margin-top: 100px;
+            }
+
+            .backgroundBrand123 {
+                height: 320px;
+            }
+        }
+
+        @media only screen and (max-width: 1550px) {
+
+            #streamerImage1 {
+                width: 600px;
+                left: 40%;
+            }
+        }
+
+        @media only screen and (max-width: 1455px) {
+
+            #streamerImage1 {
+                width: 500px;
+                left: 45%;
+            }
+        }
+
+        @media only screen and (max-width: 1437px) {
+
+            #sfBrandSlant {
+                height: 220vh;
+                width: 350vh;
+                right: 15%;
+            }
+
+            #howItWorkTitle {
+                margin-left: 250px;
+            }
+
+            #HowItWorksStep1Section {
+                left: -18%;
+                top: -10%;
+            }
+
+            #HowItWorksStep2Section {
+                left: -10%;
+                top: -3%;
+            }
+
+
+            #howItWorksStep1P {
+                margin-left: 50px;
+                top: 15%;
+            }
+
+            #howItWorksStep2P {
+                margin-left: 80px;
+            }
+
+            #howItWorksStep3P {
+                margin-left: 80px;
+            }
+
+            #howItWorksStep4P {
+                margin-left: 80px;
+            }
+        }
+
+        @media only screen and (max-width: 1312px) {
+
+            .brand123 p {
+                font-size: 15px;
+            }
+
+            .brand123 h3 {
+                font-size: 25px;
+            }
+
+            #brand123Row {
+                margin-top: 50px;
+            }
+
+            .backgroundBrand123 {
+                height: 350px;
+            }
+        }
+
+        @media only screen and (max-width: 1302px) {
+
+            #homeTitle {
+                font-size: 45px;
+            }
+
+            #titleParagraph {
+                font-size: 14px;
+            }
+
+            #brandHomeButton {
+                width: 300px;
+            }
+        }
+
+        @media only screen and (max-width: 1167px) {
+
+            #homeTitle {
+                font-size: 35px;
+            }
+
+            #titleParagraph {
+                font-size: 13px;
+            }
+
+            #brandHomeButton {
+                width: 260px;
+            }
+
+            #streamerImage1 {
+                width: 400px;
+                top: 30%;
+            }
+
+            #brand123Title {
+                font-size: 25px;
+            }
+        }
+
+        @media only screen and (max-width: 1100px) {
+            #titleParagraph {
+                width: auto margin-left: 50px;
+            }
+
+            #brandHomeButton {
+                width: 200px;
+                font-size: 14px;
+                top: 100%;
+            }
+            #streamerImage1 {
+                width: 400px;
+                left: 30%;
+            }
+
+            #streamerImage1 {
+                display: none;
+            }
+
+            #homeTitle {
+                font-size: 55px;
+            }
+
+            #titleParagraph {
+                font-size: 16px;
+                width: auto;
+                width: none;
+            }
+
+            .brand123 p {
+                font-size: 14px;
+            }
+
+            .brand123 h3 {
+                font-size: 25px;
+            }
+
+            #brand123Row {
+                margin-top: 10px;
+            }
+
+            .backgroundBrand123 {
+                height: 375px;
+            }
+        }
+
+
+        @media only screen and (max-width: 1040px) {
+            #streamerImage1 {
+                display: none;
+            }
+
+            #homeTitle {
+                font-size: 55px;
+            }
+
+            #titleParagraph {
+                font-size: 16px;
+                width: 700px;
+            }
+
+            #brandHomeButton {
+                top: 120%;
+            }
+
+            #HowItWorksStep1Section {
+                left: -20%;
+                top: 1%;
+            }
+
+            #howItWorksStep1P {
+                left: 5%;
+                top: 15%;
+                width: 250px;
+            }
+
+            #HowItWorksStep2Section {
+                left: -10%;
+                top: 3%;
+            }
+
+            #howItWorksStep2P {
+                left: 10%;
+                width: 250px;
+            }
+
+            #HowItWorksStep3Section {
+                left: -5%;
+            }
+
+            #howItWorksStep3P {
+                left: 13%;
+                width: 250px;
+            }
+
+            #HowItWorksStep4Section {
+                left: 0%;
+            }
+
+            #howItWorksStep4P {
+                left: 10%;
+                width: 250px;
+            }
+
+            #sfBrandSlant {
+                left: -40%;
+                height: 250vh;
+            }
+
+            footer {
+                bottom: -5%;
+            }
+        }
+
+
+        @media only screen and (max-width: 1008px) {
+
+            #brand123Container {
+                height: 1000px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            .brand123 p {
+                width: 220px;
+            }
+
+            .backgroundBrand123 {
+                height: 320px;
+            }
+
+            #twitchSectionImage {
+                top: 5000%;
+            }
+
+            #HowItWorksSection {
+                height: 1500px;
+            }
+
+            #sfBrandSlant {
+
+                display: none;
+            }
+
+
+            .brand123Trophy {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 1007px) {
+
+            #brand123Container {
+                height: 2000px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+
+
+            .backgroundBrand123 {
+                margin-bottom: 40px;
+                height: 320px;
+                width: 500px;
+            }
+
+            #twitchSectionImage {
+                margin-top: 240px;
+                left: 3%;
+                width: auto;
+                height: 400px;
+            }
+
+            #brand123Title {
+                font-size: 40px;
+                font-weight: bold;
+            }
+
+            #brand123PTitle {
+                display: none;
+            }
+
+            .brand123 p {
+                font-size: 18px;
+                width: 300px;
+            }
+
+            #brand123Row {
+                margin-top: 400px;
+            }
+
+            #homeBigImage {
+                display: none;
+            }
+
+            #sfBrandSlant {
+                display: none;
+            }
+
+
+            #brand123Row {
+                margin: 0px;
+                margin-top: 180px;
+                padding: 0px;
+            }
+
+
+
+            .backgroundBrand123 {
+                background-color: #e5efff;
+                border-radius: 15px;
+                height: 250px;
+                margin: 0px;
+                padding: 20px 0 20px 0;
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+            }
+
+
+
+            .brand123 h3 {
+                margin: 0 0 10px 0px;
+                font-size: 24px;
+                color: #0c6dff;
+                font-weight: bolder;
+                letter-spacing: 2px;
+            }
+            .brand123Trophy {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 968px) {
+            #brandHomeButton {
+                top: 120%;
+            }
+        }
+
+        @media only screen and (max-width: 968px) {
+            #titleParagraph {
+                font-size: 14px;
+                width: auto;
+                margin-left: 0px;
+            }
+
+            #homeTitle {
+                font-size: 50px;
+                padding-left: 0px;
+            }
+        }
+
+        @media only screen and (max-width: 602px) {
+
+
+
+            #twitchSectionImage {
+                display: none;
+            }
+
+            #brand123Row {
+                margin-top: 40px;
+            }
+
+            #brand123Container {
+                height: 1600px;
+            }
+        }
+
+
+        @media only screen and (max-width: 590px) {
+
+            #titleParagraph {
+                font-size: 12px;
+                width: 500px;
+                margin-left: -40px;
+            }
+
+            #homeTitle {
+                font-size: 45px;
+                margin-left: -40px;
+            }
+
+            #brandHomeButton {
+                top: 110%;
+                left: 15%;
+            }
+        }
+
+        @media only screen and (max-width: 492px) {
+
+            #titleParagraph {
+                font-size: 10px;
+                margin-left: -20px;
+                width: 500px;
+            }
+
+            #homeTitle {
+                font-size: 45px;
+                margin-left: -20px;
+            }
+
+            #brandHomeButton {
+                top: 110%;
+                left: 10%;
+            }
+        }
+
+        @media only screen and (max-width: 395px) {
+
+            #titleParagraph {
+                display: none;
+            }
+
+            #homeTitle {
+                font-size: 45px;
+                margin-left: 0px;
+                width: 300px;
+            }
+
+            #brandHomeButton {
+                top: 180%;
+            }
+
+            #streamerImage1 {
+                display: none;
+            }
+
+            #howItWorkTitle {
+                font-size: 55px;
+                margin-left: 0px;
+            }
+
+            #titleParagraph {
+                font-size: 16px;
+                width: 700px;
+            }
+
+            #brandHomeButton {
+                top: 120%;
+            }
+
+            #HowItWorksStep1Section {
+                left: 15%;
+                top: 0%;
+            }
+
+            #howItWorksStep1P {
+
+                top: 20%;
+                left: -7%;
+                width: 250px;
+            }
+
+            #howItWorksStep1 {
+                left: -50%;
+            }
+
+            #howItWorksStep1 i {
+                margin-right: 40px;
+            }
+
+            .howItWorksIcons i {
+                margin-left: 00px;
+            }
+
+            #HowItWorksStep2Section {
+                left: 15%;
+                top: 10%;
+            }
+
+            #howItWorksStep2P {
+
+                top: 8%;
+                left: -7%;
+                width: 250px;
+            }
+
+            #howItWorksStep2 {
+                left: -50%;
+            }
+
+            #howItWorksStep2 i {
+                margin-right: 40px;
+            }
+
+            #HowItWorksStep3Section {
+                left: 15%;
+                top: 20%;
+            }
+
+            #howItWorksStep3P {
+
+                top: 8%;
+                left: -7%;
+                width: 250px;
+            }
+
+            #howItWorksStep3 {
+                left: -50%;
+            }
+
+            #howItWorksStep3 i {
+                margin-right: 40px;
+            }
+
+            #HowItWorksStep4Section {
+                left: 17%;
+                top: 29%;
+            }
+
+            #howItWorksStep4P {
+
+                top: 8%;
+                left: -7%;
+                width: 250px;
+            }
+
+            #howItWorksStep4 {
+                left: -50%;
+            }
+
+            #howItWorksStep4 i {
+                margin-right: 40px;
+            }
+
+            #sfBrandSlant {
+                display: none;
+            }
+
+            .backgroundBrand123 {
+                margin-bottom: 50px;
+            }
+
+            .backgroundBrand123 {
+                width: 280px;
+                height: 320px;
+            }
+
+            .brand123 p {
+                width: 260px;
+            }
+
+            #brand123Container {
+                height: 1800px;
+            }
+        }
+
+        @media only screen and (max-width: 337px) {
+
+            #titleParagraph {
+                display: none;
+            }
+
+            #homeTitle {
+                font-size: 30px;
+                margin-left: 0px;
+                margin-right: 0px;
+                left: 10%;
+            }
+
+            #brandHomeButton {
+                top: 180%;
+                left: 5%;
+            }
+
+            #brand123Container {
+                height: 2000px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+
+
+            .backgroundBrand123 {
+                margin-bottom: 40px;
+                height: 320px;
+                width: 250px;
+            }
+
+            .brand123 p {
+                font-size: 14px;
+                width: 225px;
+            }
+
+            #brand123Row {
+                margin-top: 40px;
+            }
+
+            #homeBigImage {
+                display: none;
+            }
+
+            #sfBrandSlant {
+                display: none;
+            }
+        }

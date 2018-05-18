@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>StreamFluence</title>
+    <!-- bootstap html and cc elemets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--links my css page -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/index1.3.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/brandsHome.css">
+    <!--Allows me to use JQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- Allows me to use Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/floo.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One|Patua+One|Roboto" rel="stylesheet">
+</head>
+
+<body id="top">
+    <div class="wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" id="navStarted">
+           <%- include('layouts/nav'); %>
+        </nav>
+        <!-- BRAND LOGO with Triangle background-->
+        <div id="brand-corner" class="hidden-xs">
+            <div id="brand-background"></div>
+            <a href="/">
+            <img id="brand-logo" src="assets/images/streamfluence-logo.png">
+         </a>
+        </div>
+        <!-- Content -->
+        <section class="sec sec-top" id='homeBigScreen'>
+            <img src="./assets/images/sfHomeImage.png" id='homeBigImage'>
+            <img src="./assets/images/sfHomeImage2.png" id='homeBigImage2'>
+            <div class="row homeContent">
+                <img src="./assets/images/brandStreamerImage1.png" id='streamerImage1'>
+                <div class="col-md-6 homeContentText">
+                    <h1 id='homeTitle'>Expose your brand to<br> a whole new audience</h1>
+                    <p id='titleParagraph'> With StreamFluence, you don't have to jump through hoops,
+                        <br> mess with equations, or hope that you get exposure; we match
+                        <br> your brand with influencers who want to work with you. Go beyond
+                        <br> typical affiliate programs and make marketing opportunities
+                        <br> that really pop. </p>
+                    <a class="btn btn-lg btn-round-lg" id='brandHomeButton' href="https://streamfluence.herokuapp.com/register" target="_blank" role="button">GET STARTED FOR FREE</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </section>
+    </div>
+    <section class="container-fluid sec" id='brand123Container'>
+        <div class='row text-center' style='margin-top: 25px;'>
+            <div class='col-md-6'>
+                <img src="./assets/images/twitch_photo.jpg" id='twitchSectionImage'>
+            </div>
+            <div class='col-md-6'>
+                <div class="row">
+                    <div class='col-sm-2'>
+                    </div>
+                    <div class='col-sm-9 text-left brand123'>
+                        <br>
+                        <br>
+                        <h3 id='brand123Title'>LIVE STREAMING:<br><br>THE MEDIUM OF THE NEXT GENERATION</h3>
+                        <br>
+                        <br>
+                        <p style='' id='brand123PTitle'>Get ahead of the competition, tap into the content over 100+ million millennials and gen Zs are consuming everyday. </p>
+                    </div>
+                    <div class='col-sm-1'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class='row text-center' id='brand123Row'>
+            <div class="col-md-4 text-center">
+                <div class="row backgroundBrand123">
+                    <div class='col-sm-2 text-center brand123Trophy'>
+                        <i class="fa fa-trophy" style="font-size:50px; color: #6a95ff;"></i>
+                    </div>
+                    <div class='col-sm-9 text-left brand123'>
+                        <h3>Authentic Marketing</h3>
+                        <br>
+                        <p>Wouldn’t it be great if your audience looked forward to seeing your brand? Through our network, that’s exactly what we deliver. </p>
+                    </div>
+                    <div class='col-sm-1'>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="row backgroundBrand123">
+                    <div class='col-sm-2 text-center brand123Trophy'>
+                        <i class="fa fa-trophy" style="font-size:50px; color: #6a95ff;"></i>
+                    </div>
+                    <div class='col-sm-9 text-left brand123'>
+                        <h3>Break into The Scene</h3>
+                        <br>
+                        <p>Want to break into the Twitch or Live Content space but don't know how? Our expert account managers with over 6+ years experience in the scene have you covered.</p>
+                    </div>
+                    <div class='col-sm-1'>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="row backgroundBrand123">
+                    <div class='col-sm-2 text-center brand123Trophy'>
+                        <i class="fa fa-trophy" style="font-size:50px; color: #6a95ff;"></i>
+                    </div>
+                    <div class='col-sm-9 text-left brand123'>
+                        <h3>Extend your reach</h3>
+                        <br>
+                        <p>Whether you're looking to drive web traffic, increase product sales, or egage with new customers, StreamFluence was developed with your business in mind.</p>
+                    </div>
+                    <div class='col-sm-1'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-lightpurple" id='HowItWorksSection'>
+        <img src="./assets/images/sfBrandSlant.png" id='homeBigImage'>
+        <img src="./assets/images/sfBrandSlant.png" id='sfBrandSlant'>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class='text-center' id='howItWorkTitle' style=''>HOW IT WORKS</h1>
+            </div>
+        </div>
+        <div class="row howitWorkSteps" id='HowItWorksStep1Section'>
+            <div class="col-md-1">
+                <p></p>
+            </div>
+            <div class="col-md-2 text-right howItWorksIcons" id='howItWorksStep1'>
+                <i class="fa fa-sign-in text-left"></i>
+                <br>
+                <a class="btn btn-lg btn-round-lg text-center" id='howItWorksBtn' href="https://streamfluence.herokuapp.com/register" target="_blank" role="button">SIGN UP</a>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-2 text-center" id='howItWorksStep1P'>
+                <p>Getting started is easy, just tell us a bit about yourself and your product.</p>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+        <div class="row howitWorkSteps" id='HowItWorksStep2Section'>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-2 text-right howItWorksIcons" id='howItWorksStep2'>
+                <i class="fa fa-cogs howItWorksIcons"></i>
+                <br>
+                <a class="btn btn-lg btn-round-lg text-right" id='howItWorksBtn' href="https://streamfluence.herokuapp.com/register" target="_blank" role="button">CREATE CAMPAIGN</a>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-2 text-left" id='howItWorksStep2P'>
+                <p>In 5 minutes or less create The Campaign that's right for your brand.</p>
+            </div>
+            <div class="col-md-5">
+            </div>
+        </div>
+        <div class="row howitWorkSteps" id='HowItWorksStep3Section'>
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-2 text-right howItWorksIcons" id='howItWorksStep3'>
+                <i class="fa fa-users"></i>
+                <br>
+                <a class="btn btn-lg btn-round-lg text-right" id='howItWorksBtn' href="https://streamfluence.herokuapp.com/register" target="_blank" role="button">MATCH INFLUENCERS</a>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-2 text-left" id='howItWorksStep3P'>
+                <p>We'll take your campaign goals and match them to the influencers who will best represent you.</p>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+        <div class="row howitWorkSteps" id='HowItWorksStep4Section'>
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-2 text-right howItWorksIcons" id='howItWorksStep4'>
+                <i class="fa fa-child"></i>
+                <br>
+                <a class="btn btn-lg btn-round-lg text-right" id='howItWorksBtn' href="https://streamfluence.herokuapp.com/register" target="_blank" role="button">PROMOTE BRAND</a>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-2 text-left" id='howItWorksStep4P'>
+                <p> Sit back, relax, and keep an keep an eye on the progress of your campaign with real-time tracking.</p>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </section>
+    <!-- /.wrapper -->
+    <section id='noTitleCastersSection'>
+        <div class="row">
+            <div class="col-md-6" id='aboutStreamersSection'>
+                <div class='row'>
+                    <div class='col-md-4'>
+                    </div>
+                    <div class='col-md-6' id='casterContent'>
+                        <h4 class='text-left'>JOIN AS A STREAMER</h4>
+                        <br>
+                        <p class='text-left'>Turn Live-streaming into a career with rewarding and fulfilling sponsorships.</p>
+                        <br>
+                        <br>
+                        <a class="btn btn-lg btn-round-lg" id='aboutViewMoreBtn' href="https://streamfluence.herokuapp.com/api/v1/auth/twitch" target="_blank" role="button">JOIN NOW</a>
+                    </div>
+                    <div class='col-md-2'>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id='brandStreamersSection'>
+                <div class='row'>
+                    <div class='col-md-2'>
+                    </div>
+                    <div class='col-md-6' id='brandedContent'>
+                        <h4 class='text-left'>GET STARTED AS A BRAND</h4>
+                        <br>
+                        <p class='text-left'>We have over 500+ Broadcasters that want to promote your brand!
+                        </p>
+                        <br>
+                        <br>
+                        <a class="btn btn-lg btn-round-lg" id='brandViewMoreBtn' href="https://streamfluence.herokuapp.com/register" target="_blank">
+                                 GET STARTED
+                           </a>
+                    </div>
+                    <div class='col-md-4'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <%- include('layouts/footer'); %>
+    </footer>
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2995043.js"></script>
+    <!-- End of HubSpot Embed Code -->
+</body>
+
+</html>
